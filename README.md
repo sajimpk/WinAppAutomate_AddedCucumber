@@ -17,3 +17,7 @@ Start the WinAppDriver server:
 ```WinAppDriver.exe 4723```
 
 # Windows Application Driver UI Recorder: Helps find XPath locators
+The UI Recorder comes with the WinAppDriver installer. You can find it in the following location after installation: [official GitHub repository](https://github.com/Microsoft/WinAppDriver/releases)
+### Open the UI Recorder 
+- Navigate to the installed location and double-click UIRecorder.exe.
+
