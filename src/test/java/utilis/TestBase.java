@@ -25,7 +25,7 @@ public class TestBase {
         return driver;
     }
 
-    public void closeWebDriver() {
+    public void CloseDriver() {
         driver.quit();
     }
 }

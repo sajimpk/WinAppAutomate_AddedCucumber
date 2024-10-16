@@ -11,13 +11,17 @@ public class Homepage {
 WebDriver driver;
 
 By logo = By.xpath("//Window[@ClassName='Notepad++']//Pane[@ClassName='Scintilla']");
+By Save_icon = By.xpath("//Window[@ClassName='Notepad++']//Pane[@ClassName='Scintilla']");
+By New_icon = By.xpath("/ToolBar[@ClassName='ToolbarWindow32']/Button[@Name='New']");
 
 
 public Homepage(WebDriver driver){
     this.driver = driver ;
 }
 
-public WebElement getSearchIcon(){return driver.findElement(logo);}
+public WebElement write_texT(){return driver.findElement(logo);}
+public WebElement Save_icon(){return driver.findElement(Save_icon);}
+public WebElement New_icon(){return driver.findElement(New_icon);}
 
 
 }

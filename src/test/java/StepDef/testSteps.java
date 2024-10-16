@@ -23,13 +23,26 @@ public class testSteps {
 
     @Given("User Click on notepad write options")
     public void UserClickOnNotepadWriteOptions() throws InterruptedException {
-        homepage.getSearchIcon().click();
+        homepage.write_texT().click();
 
     }
 
 
     @Then("Write {string}")
-    public void write(String Value) {
-        homepage.getSearchIcon().sendKeys(Value);
+    public void write(String Value) throws InterruptedException {
+        homepage.write_texT().sendKeys(Value);
+        Thread.sleep(3000);
+
+    }
+
+    @And("Click On save icon")
+    public void clickOnSaveIcon() throws InterruptedException {
+        homepage.Save_icon().click();
+        Thread.sleep(3000);
+    }
+
+    @Given("Click on New File Icon")
+    public void clickOnNewFileIcon() {
+        homepage.New_icon().click();
     }
 }
