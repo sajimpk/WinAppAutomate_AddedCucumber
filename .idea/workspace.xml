@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d42b8362-317c-4293-ae31-f6d78d701c9c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDef/hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HomePage/Homepage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HomePage/Homepage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Feature/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Feature/test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/testSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/testSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilis/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilis/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDef/hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDef/hooks.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +35,7 @@
     "Cucumber Java.Feature: test.executor": "Run",
     "Cucumber Java.Scenario: Create a new file on notepad++.executor": "Run",
     "Cucumber Java.Scenario: Verify Bikroy logo work properly.executor": "Run",
+    "Cucumber Java.Scenario: Verify Write work properly.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "SAJIM",
     "ignore.virus.scanning.warn.message": "true",

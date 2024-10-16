@@ -20,7 +20,7 @@ public class hooks {
     }
 
     @After
-    public void AfterScenario() throws IOException, InterruptedException {
+    public void AfterScenario() throws IOException {
         // Close the driver after each scenario
         testContextSetup.testBase.CloseDriver();
     }
