@@ -12,7 +12,7 @@ WebDriver driver;
 
 By logo = By.xpath("//Window[@ClassName='Notepad++']//Pane[@ClassName='Scintilla']");
 By Save_icon = By.xpath("//Window[@ClassName='Notepad++']//Pane[@ClassName='Scintilla']");
-By New_icon = By.xpath("/ToolBar[@ClassName='ToolbarWindow32']/Button[@Name='New']");
+By New_icon = By.xpath("/Button[@Name='New']");
 
 
 public Homepage(WebDriver driver){
